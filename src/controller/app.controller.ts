@@ -1,6 +1,6 @@
 import { Controller, Get, HttpStatus, Post, Res } from '@nestjs/common';
 import * as AWS from 'aws-sdk';
-import { ItemDto } from 'src/dto/item.dto';
+import { ItemDao } from 'src/dto/item.dao';
 import { ShopItem } from 'src/model/shopItem.model';
 
 @Controller('/api')
