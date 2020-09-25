@@ -2,7 +2,7 @@ import { InternalServerErrorException } from '@nestjs/common';
 import * as AWS from 'aws-sdk';
 import { ShopItem } from 'src/model/shopItem.model';
 
-export class ItemDto {
+export class ItemDao {
      // AmazonDB Client
      private  dynamoDB: AWS.DynamoDB;
 
